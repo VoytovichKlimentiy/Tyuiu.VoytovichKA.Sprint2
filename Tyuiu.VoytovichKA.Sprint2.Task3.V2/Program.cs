@@ -1,6 +1,6 @@
-﻿using Tyuiu.VoytovichKA.Sprint2.Task2.V19.Lib;
+﻿using Tyuiu.VoytovichKA.Sprint2.Task3.V2.Lib;
 
-namespace Tyuiu.VoytovichKA.Sprint2.Task2.V19
+namespace Tyuiu.VoytovichKA.Sprint2.Task3.V2
 {
     class Program
     {
@@ -10,26 +10,24 @@ namespace Tyuiu.VoytovichKA.Sprint2.Task2.V19
             Console.Title = "Спринт #2 | Выполнил: Войтович К.А. | НТм-25-1";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #2                                                               *");
-            Console.WriteLine("* Тема: Оператор if - полная и короткая форма записи                      *");
-            Console.WriteLine("* Задание #2                                                              *");
-            Console.WriteLine("* Вариант #19                                                             *");
+            Console.WriteLine("* Тема: Вложенные операторы if-else                                       *");
+            Console.WriteLine("* Задание #3                                                              *");
+            Console.WriteLine("* Вариант #2                                                              *");
             Console.WriteLine("* Выполнил: Войтович Климентий Антонович | НТм-25-1                       *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
-            Console.WriteLine("* Написать программу, которая запрашивает целые значения с клавиатуры и   *");
-            Console.WriteLine("* вычисляет, находится ли точка с координатами (X, Y) в заштрихованной    *");
-            Console.WriteLine("* области.                                                                *");
+            Console.WriteLine("* Написать программу, которая вычисляет требуемое значение функции Y с    *");
+            Console.WriteLine("* использованием вложенных операторов if-else, где пользователь вводит    *");
+            Console.WriteLine("* значение переменной X с клавиатуры.                                     *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("Введите X:");
             int x = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Введите Y:");
-            int y = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine(ds.CheckDotInShadedArea(x, y));
+            Console.WriteLine(ds.Calculate(x));
             Console.ReadLine();
         }
     }

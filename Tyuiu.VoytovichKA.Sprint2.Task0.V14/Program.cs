@@ -10,7 +10,7 @@ namespace Tyuiu.VoytovichKA.Sprint2.Task0.V14
             Console.Title = "Спринт #2 | Выполнил: Войтович К.А. | НТм-25-1";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #2                                                               *");
-            Console.WriteLine("* Тема: Создание итогового решения по спринту                             *");
+            Console.WriteLine("* Тема: Операции сравнения                                                *");
             Console.WriteLine("* Задание #0                                                              *");
             Console.WriteLine("* Вариант #14                                                             *");
             Console.WriteLine("* Выполнил: Войтович Климентий Антонович | НТм-25-1                       *");
