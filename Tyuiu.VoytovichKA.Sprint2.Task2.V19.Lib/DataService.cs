@@ -5,6 +5,8 @@ namespace Tyuiu.VoytovichKA.Sprint2.Task2.V19.Lib
     {
         public bool CheckDotInShadedArea(int x, int y)
         {
+
+            
             bool res;
             if (y==3 && 
                 ((x >=3 && x<=5)|| (x >= 9 && x <= 12)) // при y=3
