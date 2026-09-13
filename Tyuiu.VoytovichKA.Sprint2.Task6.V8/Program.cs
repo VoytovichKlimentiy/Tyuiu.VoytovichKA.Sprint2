@@ -22,14 +22,14 @@ namespace Tyuiu.VoytovichKA.Sprint2.Task6.V8
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine("Введите n:");
-            int n = Convert.ToInt16(Console.ReadLine());
             Console.WriteLine("Введите m:");
             int m = Convert.ToInt16(Console.ReadLine());
+            Console.WriteLine("Введите n:");
+            int n = Convert.ToInt16(Console.ReadLine());
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine(ds.FindDateOfPreviousDay(m, m));
+            Console.WriteLine(ds.FindDateOfPreviousDay(m, n));
             Console.ReadLine();
         }
     }
