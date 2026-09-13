@@ -11,7 +11,7 @@ namespace Tyuiu.VoytovichKA.Sprint2.Task5.V6.Test
             DataService ds = new DataService();
             int x = 1, y = 14;
             string res = ds.FindCardNameAndValue(x, y);
-            Assert.AreEqual(res, "Туз пик");
+            Assert.AreEqual(res, "туз пик");
         }
     }
 }

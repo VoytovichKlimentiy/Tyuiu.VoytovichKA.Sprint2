@@ -26,31 +26,31 @@ namespace Tyuiu.VoytovichKA.Sprint2.Task5.V6.Lib
             switch (value2)
             {
                 case 6:
-                    value = "Шестёрка";
+                    value = "шестёрка";
                     break;
                 case 7:
-                    value = "Семёрка";
+                    value = "семёрка";
                     break;
                 case 8:
-                    value = "Восьмёрка";
+                    value = "восьмёрка";
                     break;
                 case 9:
-                    value = "Девятка";
+                    value = "девятка";
                     break;
                 case 10:
-                    value = "Десятка";
+                    value = "десятка";
                     break;
                 case 11:
-                    value = "Валет";
+                    value = "валет";
                     break;
                 case 12:
-                    value = "Дама";
+                    value = "дама";
                     break;
                 case 13:
-                    value = "Король";
+                    value = "король";
                     break;
                 case 14:
-                    value = "Туз";
+                    value = "туз";
                     break;
 
             }
